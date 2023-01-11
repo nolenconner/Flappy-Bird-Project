@@ -224,8 +224,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 754201712}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.03, y: 0.1351, z: 0}
-  m_LocalScale: {x: 1.1181724, y: 1.052, z: 1}
+  m_LocalPosition: {x: 0.06, y: 0.31, z: 0}
+  m_LocalScale: {x: 0.9625, y: 0.95, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -261,6 +261,51 @@ CircleCollider2D:
   m_Offset: {x: -0.05, y: -0.3}
   serializedVersion: 2
   m_Radius: 1.83
+--- !u!1 &1273692294
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1273692296}
+  - component: {fileID: 1273692295}
+  m_Layer: 0
+  m_Name: Pipe Spawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1273692295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1273692294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07c1eec2f3e0540438e5ab3c3880e1a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pipeSet: {fileID: 7436975280888278499, guid: 43f1c91a292a42d4397779213c483ebf, type: 3}
+--- !u!4 &1273692296
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1273692294}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 28.5, y: -0.14207435, z: -0.14115302}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1317368165
 GameObject:
   m_ObjectHideFlags: 0
