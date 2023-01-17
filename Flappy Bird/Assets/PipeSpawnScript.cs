@@ -11,7 +11,7 @@ public class PipeSpawnScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        spawnPipe();
+        spawnPipe(); //spawns its first pipe
     }
 
     // Update is called once per frame
@@ -28,8 +28,8 @@ public class PipeSpawnScript : MonoBehaviour
     }
 
     void spawnPipe(){
-        GameObject newPipe = Instantiate(pipe);
-        newPipe.transform.position = transform.position + new Vector3(0, Random.Range(-height, height), 0);
-        Destroy(newPipe, 15);
+        GameObject newPipe = Instantiate(pipe); //makes a new pipe
+        newPipe.transform.position = transform.position + new Vector3(0, Random.Range(-height, height), 0); //changes the position
+        Destroy(newPipe, 15); //destroys pipe after 15 seconds
     }
 }

@@ -10,6 +10,7 @@ public class PipeMiddleScript : MonoBehaviour
     void Start()
     {
         logic = GameObject.FindGameObjectWithTag("Logic").GetComponent<LogicScript>();
+        Debug.Log("start works");
     }
     // Update is called once per frame
     void Update()
@@ -19,7 +20,7 @@ public class PipeMiddleScript : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision){
         logic.addScore();
-        
+        Debug.Log("add score works");
     }
 }
 
