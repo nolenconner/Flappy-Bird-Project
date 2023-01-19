@@ -26,15 +26,10 @@ public class BirdScript : MonoBehaviour
         }
     }
 
-
-    
-
      void OnCollisionEnter2D(Collision2D col){ //dies and game over when collides with object
-        Debug.Log("something was hit");
             isAlive = false;
             logic.gameOver();
-        }
-        
+        }        
     }
 
 

@@ -18,11 +18,11 @@ public class LogicScript : MonoBehaviour
         scoreText.text = playerScore.ToString();
     }
 
-    public void restartGame(){
+    public void restartGame(){ //game resets to beginning sceen when button is clicked
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
-    public void gameOver(){
+    public void gameOver(){ //shows game over screen
         overScreen.SetActive(true);
     }
 }
